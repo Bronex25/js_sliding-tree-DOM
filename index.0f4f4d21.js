@@ -1,0 +1,2 @@
+var e=document.querySelector(".tree");e.querySelectorAll("li").forEach(function(e){if(e.querySelector("ul")){var t=document.createElement("span");t.textContent=e.firstChild.textContent,e.firstChild.replaceWith(t)}}),e.querySelectorAll("span").forEach(function(e){e.addEventListener("click",function(e){e.currentTarget.nextElementSibling.hidden?e.currentTarget.nextElementSibling.hidden=!1:e.currentTarget.nextElementSibling.hidden=!0,e.stopPropagation()})});
+//# sourceMappingURL=index.0f4f4d21.js.map
